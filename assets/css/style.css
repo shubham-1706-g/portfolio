@@ -1093,16 +1093,6 @@ body.dark-mode .footer {
         cursor: pointer;
     }
 
-    .skill-name:hover {
-        transform: translateY(-5px);
-        background: var(--hover-bg);
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        color: var(--primary-text);
-    }
-
-    body.dark-mode .skill-name:hover {
-        box-shadow: 0 10px 30px rgba(255, 255, 255, 0.05);
-    }
 
     .skill-name::after {
         display: none;
@@ -1277,18 +1267,17 @@ body.dark-mode .footer {
         font-size: 12px;
         padding: 5px 10px;
         width: 250px;
-    }
-
-    .skill-name:hover {
-        transform: translateY(-5px);
         background: var(--hover-bg);
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        color: var(--primary-text);
+        color: var(--secondary-text);
+        padding: 4px 12px;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: 500;
+        white-space: nowrap;
+        border: 1px solid var(--border-color);
     }
 
-    body.dark-mode .skill-name:hover {
-        box-shadow: 0 10px 30px rgba(255, 255, 255, 0.05);
-    }
+
 
     .contact-info p {
         font-size: 13px;
