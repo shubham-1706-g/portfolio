@@ -6,11 +6,11 @@ A modern personal website to showcase my freelance services, automation projects
 
 ## 📁 Table of Contents
 
-* [Installation](#installation) 🔧
-* [Usage](#usage) 🖥️
-* [Features](#features) ✨
-* [Contributing](#contributing) 🤝
-* [License](#license) 📄
+* [Installation] 🔧
+* [Usage] 🖥️
+* [Features] ✨
+* [Contributing] 🤝
+* [License] 📄
 
 ## 🏆 Highlights
 
