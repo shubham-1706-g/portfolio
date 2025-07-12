@@ -884,6 +884,26 @@ body.dark-mode .footer {
         cursor: auto !important;
     }
 
+    .contact-link {
+        font-size: 16px;
+        padding: 2px 10px;
+        border-radius: 20px;
+        background: var(--hover-bg);
+        border: 1px solid var(--border-color);
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        color: inherit;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .contact-link:hover {
+        background: var(--accent-color, #ddd); /* fallback if no accent variable */
+        cursor: pointer;
+    }
     .navigation {
         position: relative;
         top: auto;
@@ -1052,20 +1072,25 @@ body.dark-mode .footer {
         text-align: center;
     }
 
-    .skill-name {
-        font-size: 13px;
-        padding: 8px 20px;
+    .contact-link {
+        font-size: 16px;
+        padding: 0px 10px;
         border-radius: 20px;
-        width: 250px;
         background: var(--hover-bg);
         border: 1px solid var(--border-color);
-        display: inline-block;
-        width: 120px;
-        text-align: center;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        color: inherit;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .contact-link:hover {
+        background: var(--accent-color, #ddd); /* fallback if no accent variable */
+        cursor: pointer;
     }
 
     .skill-name:hover {
@@ -1101,7 +1126,7 @@ body.dark-mode .footer {
 
     .contact-link {
         font-size: 14px;
-        padding: 10px;
+        padding: 2px 10px;
     }
 
     .contact-icon {
@@ -1176,6 +1201,7 @@ body.dark-mode .footer {
     .name {
         font-size: 24px;
     }
+
 
     .title {
         font-size: 14px;
