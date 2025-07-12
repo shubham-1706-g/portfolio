@@ -1,7 +1,7 @@
-# 🚀 AarusPortfolio
+# 🚀 ShubhamGupta Portfolio
 
 ## 📝 Description
-A personal website showcasing my portfolio, skills, and experiences.
+A modern personal website to showcase my freelance services, automation projects, and software development skills — built for impact, performance, and client conversion.
 
 ## 📑 Table of Contents
 - [Installation](#installation) 🔧
@@ -10,45 +10,18 @@ A personal website showcasing my portfolio, skills, and experiences.
 - [Contributing](#contributing) 🤝
 - [License](#license) 📄
 
-## 🏆 Notable Achievements
-1) My website has been officially certified by Google!
-2) My website has been mentioned in the [Github's Most Famous Portfolio Repository!](https://github.com/emmabostian/developer-portfolios)
+## 🏆 Highlights
+- 💼 Built for my freelance clients to browse services and contact easily
+- ⚡ Optimized for speed, mobile experience, and SEO
+- 🌍 Hosted on [Vercel](https://vercel.com) with a custom domain (e.g., `shubhamgupta.dev`)
 
 ## 🔧 Installation
 ```bash
 # Clone the repository
-git clone https://github.com/Aarav2709/AarusPortfolio.git
+git clone https://github.com/<your-username>/portfolio.git
 
 # Navigate to the project directory
-cd AarusPortfolio
+cd portfolio
 
-# Install dependencies
-npm install
-```
-
-## 🖥️ Usage
-```bash
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Start production server
-npm start
-```
-
-## ✨ Features
-- 📱 Responsive design
-- 🎨 Portfolio showcase
-- 🌓 Dark/Light mode toggle
-
-## 🤝 Contributing
-1. 🍴 Fork the project
-2. 🌿 Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. 💾 Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. 🚀 Push to the branch (`git push origin feature/amazing-feature`)
-5. 📬 Open a Pull Request
-
-## 📄 License
-Distributed under the MIT License. See `LICENSE` for more information.
+# If you're using a build tool like Vite, Parcel, or just serving static files
+npm install    # optional (only if tools are used)
