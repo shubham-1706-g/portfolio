@@ -143,13 +143,16 @@ const fadeObserver = new IntersectionObserver((entries) => {
 // Initialize fade-in elements
 function initializeFadeElements() {
     document.querySelectorAll('.fade-in').forEach(el => {
-        // REMOVE THESE LINES:
-        // el.classList.remove('fade-in-active');
-        // el.style.opacity = '0';
-        // el.style.transform = 'translateY(30px)';
-        // el.style.transition = 'opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
-        
         fadeObserver.observe(el);
+
+        // Trigger manually if already in view (especially on mobile)
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight && rect.bottom > 0) {
+            // Delay to ensure styles are applied before the class
+            setTimeout(() => {
+                el.classList.add('fade-in-active');
+            }, 100);
+        }
     });
 }
 
