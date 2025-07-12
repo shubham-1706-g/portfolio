@@ -1013,19 +1013,74 @@ body.dark-mode .footer {
 
     .skills-grid {
         grid-template-columns: 1fr;
-        gap: 30px;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    
+
+    .skill-category {
+        padding: 30px 0;
+        border-bottom: 1px solid var(--border-color);
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+        cursor: pointer;
+        transform-origin: left center;
+        background: rgba(128, 128, 128, 0.1);
+        border: 1px solid rgba(128, 128, 128, 0.2);
+        border-radius: 12px;
+        padding: 25px;
+        overflow: hidden;
+    }
+
+    .skill-category:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    body.dark-mode .skill-category:hover {
+        box-shadow: 0 10px 30px rgba(255, 255, 255, 0.05);
     }
 
     .skill-category h3 {
         font-size: 16px;
+        margin-bottom: 15px;
+        text-align: center;
     }
 
     .skill-item {
-        margin-bottom: 15px;
+        margin-bottom: 10px;
+        text-align: center;
     }
 
     .skill-name {
         font-size: 13px;
+        padding: 8px 20px;
+        border-radius: 20px;
+        width: 250px;
+        background: var(--hover-bg);
+        border: 1px solid var(--border-color);
+        display: inline-block;
+        width: 120px;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .skill-name:hover {
+        transform: translateY(-5px);
+        background: var(--hover-bg);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        color: var(--primary-text);
+    }
+
+    body.dark-mode .skill-name:hover {
+        box-shadow: 0 10px 30px rgba(255, 255, 255, 0.05);
+    }
+
+    .skill-name::after {
+        display: none;
     }
 
     .contact-section {
@@ -1166,12 +1221,39 @@ body.dark-mode .footer {
         font-size: 13px;
     }
 
+    .skills-grid {
+        gap: 15px;
+        margin-top: 25px;
+    }
+
+    .skill-category {
+        padding: 15px;
+    }
+
     .skill-category h3 {
         font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .skill-item {
+        margin-bottom: 8px;
     }
 
     .skill-name {
         font-size: 12px;
+        padding: 5px 10px;
+        width: 250px;
+    }
+
+    .skill-name:hover {
+        transform: translateY(-5px);
+        background: var(--hover-bg);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        color: var(--primary-text);
+    }
+
+    body.dark-mode .skill-name:hover {
+        box-shadow: 0 10px 30px rgba(255, 255, 255, 0.05);
     }
 
     .contact-info p {
