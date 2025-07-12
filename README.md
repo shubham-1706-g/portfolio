@@ -1,54 +1,63 @@
-# 🚀 AarusPortfolio
+# 🚀 ShubhamGupta Portfolio
 
 ## 📝 Description
-A personal website showcasing my portfolio, skills, and experiences.
 
-## 📑 Table of Contents
-- [Installation](#installation) 🔧
-- [Usage](#usage) 🖥️
-- [Features](#features) ✨
-- [Contributing](#contributing) 🤝
-- [License](#license) 📄
+A modern personal website to showcase my freelance services, automation projects, and software development skills — built for impact, performance, and client conversion.
 
-## 🏆 Notable Achievements
-1) My website has been officially certified by Google!
-2) My website has been mentioned in the [Github's Most Famous Portfolio Repository!](https://github.com/emmabostian/developer-portfolios)
+## 📁 Table of Contents
+
+* Installation 🔧
+* Usage 🖥️
+* Features ✨
+* Contributing 🤝
+* License 📄
+
+## 🏆 Highlights
+
+* 💼 Built for my freelance clients to browse services and contact easily
+* ⚡ Optimized for speed, mobile experience, and SEO
+* 🌍 Hosted on [Vercel](https://vercel.com)
 
 ## 🔧 Installation
+
 ```bash
 # Clone the repository
-git clone https://github.com/Aarav2709/AarusPortfolio.git
+git clone https://github.com/<your-username>/portfolio.git
 
 # Navigate to the project directory
-cd AarusPortfolio
+cd portfolio
 
-# Install dependencies
-npm install
+# If you're using a build tool like Vite, Parcel, or just serving static files
+npm install    # optional (only if tools are used)
 ```
 
 ## 🖥️ Usage
+
 ```bash
-# Run development server
+# Run development server (if applicable)
 npm run dev
 
-# Build for production
-npm run build
-
-# Start production server
-npm start
+# Or simply open index.html in your browser if it's plain HTML/CSS/JS
 ```
 
 ## ✨ Features
-- 📱 Responsive design
-- 🎨 Portfolio showcase
-- 🌓 Dark/Light mode toggle
+
+* 📱 Fully responsive and mobile-first design
+* 🧹 Clean, modular HTML/CSS/JS structure
+* 🌃 Dark mode toggle (if added)
+* 🛠️ Built to integrate with freelance tools like EmailJS, Formspree, etc.
+* 💬 Contact form with validation
 
 ## 🤝 Contributing
-1. 🍴 Fork the project
-2. 🌿 Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. 💾 Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. 🚀 Push to the branch (`git push origin feature/amazing-feature`)
+
+1. 🍴 Fork this repository
+2. 🌿 Create your branch (`git checkout -b feature/awesome-thing`)
+3. 📂 Commit your changes (`git commit -m 'Add awesome feature'`)
+4. 🚀 Push to GitHub (`git push origin feature/awesome-thing`)
 5. 📬 Open a Pull Request
 
 ## 📄 License
-Distributed under the MIT License. See `LICENSE` for more information.
+
+Distributed under the MIT License. See `LICENSE` for details.
+
+---
