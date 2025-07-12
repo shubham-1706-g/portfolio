@@ -64,6 +64,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 80px 40px;
+    padding-bottom: 0;
     font-size: 15px;
     letter-spacing: -0.01em;
     background-image:
@@ -151,6 +152,7 @@ body.dark-mode .navigation {
     padding-bottom: 60px;
     animation-delay: 0.1s;
     text-align: center;
+    margin-top: 30px;
 }
 
 .name {
