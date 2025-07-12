@@ -6,17 +6,17 @@ A modern personal website to showcase my freelance services, automation projects
 
 ## 📁 Table of Contents
 
-* [Installation] 🔧
-* [Usage] 🖥️
-* [Features] ✨
-* [Contributing] 🤝
-* [License] 📄
+* Installation 🔧
+* Usage 🖥️
+* Features ✨
+* Contributing 🤝
+* License 📄
 
 ## 🏆 Highlights
 
 * 💼 Built for my freelance clients to browse services and contact easily
 * ⚡ Optimized for speed, mobile experience, and SEO
-* 🌍 Hosted on [Vercel](https://vercel.com) with a custom domain (e.g., `shubhamgupta.dev`)
+* 🌍 Hosted on [Vercel](https://vercel.com)
 
 ## 🔧 Installation
 
